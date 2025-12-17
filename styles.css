@@ -1,0 +1,24 @@
+
+
+:root{
+    --color-de-texto: #f8f4f4 ;
+    --color-de-titulos: #eedfe8;
+    --color-de-bordes:  #ee922d;
+    --color-de-botones:  #cb5212;
+    --color-de-home: #ebba78;
+    --borde-redondeado: 10%;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--color-de-texto);
+
+  /* Background image */
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+}
