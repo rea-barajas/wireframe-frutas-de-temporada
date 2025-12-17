@@ -6,11 +6,11 @@
 
 :root {
     --color-de-texto: #f8f4f4;
-    --color-de-titulos: #eedfe8;
+    --color-de-titulos: #f8f4f4;
     --color-de-bordes: #ee922d;
     --color-de-botones: #cb5212;
     --color-de-home: #ebba78;
-    --borde-redondeado: 10%;
+    --borde-redondeado: 30px;
 }
 
 body {
@@ -107,7 +107,7 @@ body {
 /*Texto*/
 .hero-text h1 {
     color: var(--color-de-titulos);
-    font-size: 90px;
+    font-size: 75px;
     line-height: 1;
     font-weight: 700;
 }
@@ -142,4 +142,8 @@ body {
 .card-text {
     color: var(--color-de-botones);
     font-size: 0.9rem;
+}
+
+.card-title {
+    color: var(--color-de-bordes);
 }
